@@ -1,0 +1,256 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Us</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+	
+	<link href="https://unpkg.com/webkul-micron@1.1.6/dist/css/micron.min.css" type="text/css" rel="stylesheet">
+	<script src="https://unpkg.com/webkul-micron@1.1.6/dist/script/micron.min.js" type="text/javascript"></script>
+	
+</head>
+
+<body>
+	
+	<header><h1>Andy Warhol Website</h1></header>	
+	
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="About.html">About</a>
+  <a class="active" href="#contact">Contact</a>
+  <a href="Life.html">Life</a>
+  <a href="legacy.html">Legacy</a>
+  <a href="works.html">Works</a>
+  <div class="dropdown">
+  <button class="dropbtn">Other Information
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+    <a href="factory.html">The Factory</a>
+    <a href="pop.html">Pop-Art</a>
+  </div>  
+</div>
+</div>	
+	
+	<h2><p>If you any feedback you would like to provide you can fill out your detials below. We would greatly appreciate if you could fill out some</p></h2>
+	
+	
+	   <fieldset>
+
+
+            <legend>Login details</legend>
+
+
+
+            <p>Please enter your detail below.</p>
+
+            <div>
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" id="firstname" required>
+            </div>
+
+
+
+            <div>
+
+                <label for="lastname">last name</label>
+                <input type="text" name="lastname" id="lastname" required>
+            </div>
+
+            <div>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+
+            </div>
+
+            <div>
+
+                <label for="tel">Phone:</label>
+                <input type="tel" name="tel" id="tel">
+
+            </div>
+
+
+        </fieldset>
+
+
+
+        <fieldset>
+
+            <legend>A bit about you</legend>
+
+            <p>When and where were you born?</p>
+
+            <div>
+                <label for="country">Country:</label>
+                <input type="text" name="country" id="country" value="Ireland">
+
+            </div>
+
+
+            <div>
+                <label for="nationality">Nationality:</label>
+                <input type="text" name="nationality" id="nationality" placeholder="If dual,enter both">
+
+            </div>
+
+            <div>
+
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min="0" max="150">
+            </div>
+
+            <div>
+                <label for="dob">Date of birth</label>
+                <input type="date" name="dob" id="dob" max="2006-06-17">
+
+
+
+            </div>
+
+
+        </fieldset>
+
+
+        <fieldset>
+
+            <legend>Your personal opinion</legend>
+
+            <p>How would you rate the quality of my website on a general basis?</p>
+
+            <div>
+                <input type="checkbox" name="excellent" id="excellent" data-micron="pop">
+
+                <label for="excellent">Excellent</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="good" id="good" data-micron="pop">
+                <label for="good">Good</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="average" id="average" checked="checked" data-micron="pop">
+                <label for="average">Average</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="poor" id="poor" data-micron="pop">
+                <label for="poor">Poor</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" name="improve" id="improve" data-micron="pop">
+                <label for="improve">Needs Improvement</label>
+            </div>
+
+            
+            </fieldset>
+	
+	
+	
+	
+        
+
+            <legend>One more question</legend>
+
+            <p>Which page on this website has been your favourite</p>
+
+            
+                <label for="choose">Choose a page:</label>
+                <select name="choose" id="choose">
+
+                    <optgroup label="Info-Pages">
+
+
+
+                        <option value="home">Home</option >
+                        
+                        <option value="about">About</option>
+
+                        <option value="contact">Contact</option>
+
+                    </optgroup>
+
+
+                    <optgroup label="Other-Pages">
+
+                        <option value="web">Life</option>
+
+                        <option value="story">Legacy</option>
+                        
+                        <option value="photo">Works</option>
+
+                        <option value="visual">Factory</option>
+                        
+                        <option value="web">Pop-Art</option>
+
+                    </optgroup>
+
+                </select>
+	
+        
+        <fieldset>
+
+            
+
+            <p>After looking through this website would you reccommend it to someone else with similar interests?</p>
+
+			<label for="question">Your answer:</label>
+			
+            <div>
+                <input type="checkbox" name="yes" id="yes" data-micron="jerk">
+
+                <label for="yes">Yes</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="no" id="no" data-micron="jerk">
+                <label for="no">No</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="maybe" id="maybe" checked="maybe" data-micron="jerk">
+                <label for="maybe">Maybe</label>
+			</div>
+            
+            </fieldset>
+                          
+        
+        
+                            <div>
+                                
+                                <label for="thoughts">
+                                    <p>Please provide your thoughts here and know we greatly appreciate all feedback:</p>
+                                </label>
+                                <textarea id="thoughts" name="thoughts" rows="10" cols="50">
+
+                                </textarea>
+                                
+                                
+                                
+                          <br>
+                              <br>
+                                  </div>    
+
+
+
+        <button type="submit">Submit form</button>
+        <button type="reset"> Reset form</button>
+
+
+
+    
+        
+	
+	
+	
+<footer>
+		Copyright 2022
+        <li class="list-inline-item"><a href="https://www.facebook.com//" target="_blank">Facebook</a></li>
+        <li class="list-inline-item"><a href="https://www.instagram.com//" target="_blank">Instagram</a></li>
+</footer>
+</body>
+</html>
